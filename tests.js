@@ -33,6 +33,10 @@
         expect(findMinMax([7, 98, 8, 68, 2])).toEqual([7, 98]);
       });
 
+      it('should return [1000] for [1000]', function () {
+        expect(findMinMax([1000])).toEqual([1000]);
+      });
+
 
       it('should return [10, 20] for [11, 13, 18, 20, 19, 10, 11, 14]', function () {
         expect(findMinMax([11, 13, 18, 20, 19, 10, 11, 14])).toEqual([10, 20]);
