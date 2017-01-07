@@ -1,4 +1,3 @@
- 
   'use strict';
    var findMinMax = require('MinMax');
 
@@ -12,6 +11,10 @@
 
       it('should return [4, 6] for [6, 4]', function () {
         expect(findMinMax([6, 4])).toEqual([4, 6]);
+      });
+
+      it('should return [1, 2] for [2,1]', function () {
+        expect(findMinMax([2,1])).toEqual([1, 2]);
       });
 
       it('should return [2, 78] for [4, 66, 6, 44, 7, 78, 8, 68, 2]', function () {
