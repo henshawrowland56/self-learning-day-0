@@ -23,6 +23,10 @@ var aritGeo = require("aritGeo");
         expect(aritGeo([2, 4, 6, 8, 10])).toEqual('Arithmetic');
       });
 
+      it("should return `Arithmetic` for [10, 20, 30, 40, 50]", function() {
+        expect(aritGeo([10, 20, 30, 40, 50])).toEqual('Arithmetic');
+      });
+
       it("should return `Arithmetic` for [5, 11, 17, 23, 29, 35, 41]", function() {
         expect(aritGeo([5, 11, 17, 23, 29, 35, 41])).toEqual('Arithmetic');
       });
