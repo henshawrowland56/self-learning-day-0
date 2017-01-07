@@ -1,5 +1,3 @@
-#!javascript
-# min-max
 exports.findMinMax = function(arr) {
   
   
@@ -20,6 +18,3 @@ exports.findMinMax = function(arr) {
   }
   return result;
 }
-
-/*var a = findMinMax([4, 4, 4, 4]);
-console.log(a)*/
