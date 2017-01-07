@@ -11,6 +11,10 @@ var aritGeo = require("aritGeo");
         expect(aritGeo([])).toEqual(0);
       });
 
+      it("should return -1 for an array with a zero value", function() {
+        expect(aritGeo([0])).toEqual(-1);
+      });
+
     });
 
     describe("Case for an arithmetic sequence", function() {
