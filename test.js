@@ -55,6 +55,10 @@ var aritGeo = require("aritGeo");
         expect(aritGeo([-1, -2, -3, -4, -5])).toEqual('Arithmetic');
       });
 
+      it("should return Geometric for [-2, -6, -18, -54]", function() {
+        expect(aritGeo([-2, -6, -18, -54])).toEqual('Geometric');
+      });
+
       it("should return -1 for [1, 3, 6, 10, 15]", function() {
         expect(aritGeo([1, 3, 6, 10, 15])).toEqual(-1);
       });
