@@ -43,6 +43,10 @@ var aritGeo = require("aritGeo");
         expect(aritGeo([2, 6, 18, 54, 162])).toEqual('Geometric');
       });
 
+      it("should return `Geometric` for [1, 10, 100, 1000, 10000]", function() {
+        expect(aritGeo([1, 10, 100, 1000, 10000])).toEqual('Geometric');
+      });
+
       it("should return `Geometric` for [0.5, 3.5, 24.5, 171.5]", function() {
         expect(aritGeo([0.5, 3.5, 24.5, 171.5])).toEqual('Geometric');
       });
