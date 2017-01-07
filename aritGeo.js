@@ -1,4 +1,5 @@
 exports.aritGeo=function(arr) { 
+if(arr.length<1){return 0};
 
 var diff = arr[1] - arr[0];
 var ratio = arr[1] / arr[0];
